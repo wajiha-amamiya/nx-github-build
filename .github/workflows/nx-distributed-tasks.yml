@@ -1,6 +1,7 @@
 name: Nx Distributed Tasks
-
-on: push
+on: 
+  push:
+  workflow_dispatch:
 
 env:
   BUILD_ARTIFACTS: dist-artifacts
